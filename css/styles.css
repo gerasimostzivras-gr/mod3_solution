@@ -1,5 +1,152 @@
-@media screen (min-width: 575px) {
-    .navbar-toggler {
-        display: none;
-    }
+body {
+    background-color: antiquewhite;
+    width: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+/*****NAVBAR*****/
+
+.navbar {
+    background-color: maroon;
+    padding: 0.5% 1%;
+}
+
+.navbar-toggler {
+    background-color: orange;
+}
+
+.navbar-toggler:hover {
+    background-color: cadetblue;
+}
+
+.navbar-toggler:active {
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.2vw;
+}
+
+/*****END NAVBAR*****/
+
+/*****CONTENT*****/
+.page-header {
+    padding: 5% 0% 3%;
+}
+
+.page-header h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 15px solid transparent;
+    background-clip:padding-box;
+}
+
+.item {
+    background-color: rgb(168, 4, 4);
+    margin-bottom: 2%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.item h2 {
+    font-size: 2em;
+    color: white;
+    font-weight: 700;
+}
+
+.item p {
+    font-size: 1.1vw;
+    color: seashell;
+}
+
+.top-btn {
+    text-align: center;
+}
+
+.top-btn:hover {
+    color: blanchedalmond;
+}
+
+.top-btn:active {
+    color: orange;
+}
+
+/*****END CONTENT*****/
+
+/*****FOOTER*****/
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin: 0;
+    height: 30vh;
+    width: 100%;
+    row-gap: 10%;
+}
+
+.copyright {
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    gap: 5%;
+}
+
+.social-icon a {
+    color: white;
+    font-size: 35px;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+}
+
+.fa-instagram {
+    background: #e1306c;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+}
+
+.fa-weibo {
+    background: #E6162D;
+}
+
+.fa-youtube {
+    background: #bb0000;
+}
+  /*****FOOTER END*****/
